@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("fondoB.jpg");
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 1100px;
+    margin: auto;
+    padding: 50px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    color: azure;
+    border: 5px solid #bd3c0a;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+
+.cuenta label{
+    color: azure;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+        display: inline-block;
+   
+}
+
+.cuenta input{
+    background: none;
+    color: azure;
+    border: none;
+    outline: 0px;
+    font-size: 20px;
+    width: 100px
+
+}
+
+    
+.tdr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+    gap: 20px;
+    padding: 30px;
+    border: 5px solid #bd3c0a;
+    
+    
+}
+
+
+.canti{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 20px;
+gap: 10px;
+}
+
+.canti input{
+    width: 30%;
+    border: none;  
+}
+
+
+h2{
+    font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: azure;
+        /*border: 5px solid #bd3c0a;*/
+        padding: 5px 10px;
+        display: inline-block;
+        position: relative;
+        bottom: -20px;
+        
+        
+}
+
+.boton{
+    
+        background-color:azure;
+        color:black;
+        font-family: 'Noto Sans',
+            sans-serif;
+        block-size: auto;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        position: relative;
+        width: 300px;
+        
+}
+
+.boton:hover {
+    background-color:#f58052;
+}
